@@ -15,6 +15,6 @@ protocol UIComponent {
 
 extension UIComponent {
     var uniqueId: UUID {
-        UUID() 
+        UUID()
     }
 }

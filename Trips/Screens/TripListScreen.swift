@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct TripListScreen: View {
+    
+    @StateObject private var tripListVM = TripListViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ForEach(tripListVM.components, id: \.uniqueId) { component in
+                component.render()
+            }
+        }.task {
+            await tripListVM.loadPage()
+        }
     }
 }
 

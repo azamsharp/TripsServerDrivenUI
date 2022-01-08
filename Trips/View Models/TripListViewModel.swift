@@ -17,8 +17,12 @@ class TripListViewModel: ObservableObject {
             let layout = try await Webservice().getTripListLayout()
             for component in layout.components {
                 switch component.type {
-                    
-                        
+                    case .imageHeader:
+                        guard let uiModel: HeaderImageUIModel = component.data.decode() else { return }
+                        components.append(HeaderImage(uiModel: uiModel))
+                    case .detailRow:
+                        guard let uiModels: DetailListUIModel = component.data.decode() else { return }
+                        components.append(DetailRow(uiModels: uiModels.rows))
                 }
             }
             

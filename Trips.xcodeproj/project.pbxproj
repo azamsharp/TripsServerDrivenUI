@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8DFF0BCF2789C75B002586F3 /* TripsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BCE2789C75B002586F3 /* TripsApp.swift */; };
-		8DFF0BD12789C75B002586F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BD02789C75B002586F3 /* ContentView.swift */; };
 		8DFF0BD32789C75C002586F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF0BD22789C75C002586F3 /* Assets.xcassets */; };
 		8DFF0BD62789C75C002586F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF0BD52789C75C002586F3 /* Preview Assets.xcassets */; };
 		8DFF0BDD2789C8A5002586F3 /* trip-list-screen.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF0BDC2789C8A5002586F3 /* trip-list-screen.json */; };
@@ -20,12 +19,19 @@
 		8DFF0BEE2789CC01002586F3 /* ComponentLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BED2789CC01002586F3 /* ComponentLayout.swift */; };
 		8DFF0BF12789D167002586F3 /* TripListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BF02789D167002586F3 /* TripListViewModel.swift */; };
 		8DFF0BF42789D21F002586F3 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BF32789D21F002586F3 /* Dictionary+Extensions.swift */; };
+		8DFF0BF7278A2F5C002586F3 /* HeaderImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BF6278A2F5C002586F3 /* HeaderImageUIModel.swift */; };
+		8DFF0BF9278A3026002586F3 /* HeaderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BF8278A3026002586F3 /* HeaderImage.swift */; };
+		8DFF0BFB278A304E002586F3 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BFA278A304E002586F3 /* View+Extensions.swift */; };
+		8DFF0BFE278A33AD002586F3 /* HeaderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BFD278A33AD002586F3 /* HeaderImageView.swift */; };
+		8DFF0C00278A425C002586F3 /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BFF278A425C002586F3 /* DetailRow.swift */; };
+		8DFF0C02278A4280002586F3 /* DetailRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C01278A4280002586F3 /* DetailRowUIModel.swift */; };
+		8DFF0C04278A42A8002586F3 /* DetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C03278A42A8002586F3 /* DetailRowView.swift */; };
+		8DFF0C06278A453E002586F3 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C05278A453E002586F3 /* AnyDecodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DFF0BCB2789C75B002586F3 /* Trips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFF0BCE2789C75B002586F3 /* TripsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsApp.swift; sourceTree = "<group>"; };
-		8DFF0BD02789C75B002586F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DFF0BD22789C75C002586F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DFF0BD52789C75C002586F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DFF0BDC2789C8A5002586F3 /* trip-list-screen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "trip-list-screen.json"; sourceTree = "<group>"; };
@@ -37,6 +43,14 @@
 		8DFF0BED2789CC01002586F3 /* ComponentLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentLayout.swift; sourceTree = "<group>"; };
 		8DFF0BF02789D167002586F3 /* TripListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewModel.swift; sourceTree = "<group>"; };
 		8DFF0BF32789D21F002586F3 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		8DFF0BF6278A2F5C002586F3 /* HeaderImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderImageUIModel.swift; sourceTree = "<group>"; };
+		8DFF0BF8278A3026002586F3 /* HeaderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderImage.swift; sourceTree = "<group>"; };
+		8DFF0BFA278A304E002586F3 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		8DFF0BFD278A33AD002586F3 /* HeaderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderImageView.swift; sourceTree = "<group>"; };
+		8DFF0BFF278A425C002586F3 /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
+		8DFF0C01278A4280002586F3 /* DetailRowUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowUIModel.swift; sourceTree = "<group>"; };
+		8DFF0C03278A42A8002586F3 /* DetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowView.swift; sourceTree = "<group>"; };
+		8DFF0C05278A453E002586F3 /* AnyDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,8 @@
 		8DFF0BCD2789C75B002586F3 /* Trips */ = {
 			isa = PBXGroup;
 			children = (
+				8DFF0BFC278A338E002586F3 /* Views */,
+				8DFF0BF5278A2F4D002586F3 /* UI Models */,
 				8DFF0BF22789D200002586F3 /* Extensions */,
 				8DFF0BEF2789D15B002586F3 /* View Models */,
 				8DFF0BEA2789CAC7002586F3 /* Utils */,
@@ -77,7 +93,6 @@
 				8DFF0BE12789C961002586F3 /* Components */,
 				8DFF0BDE2789C8B7002586F3 /* Screens */,
 				8DFF0BCE2789C75B002586F3 /* TripsApp.swift */,
-				8DFF0BD02789C75B002586F3 /* ContentView.swift */,
 				8DFF0BD22789C75C002586F3 /* Assets.xcassets */,
 				8DFF0BD42789C75C002586F3 /* Preview Content */,
 			);
@@ -105,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				8DFF0BE82789CA80002586F3 /* UIComponent.swift */,
+				8DFF0BF8278A3026002586F3 /* HeaderImage.swift */,
+				8DFF0BFF278A425C002586F3 /* DetailRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -122,6 +139,7 @@
 			children = (
 				8DFF0BE62789CA46002586F3 /* ScreenLayout.swift */,
 				8DFF0BED2789CC01002586F3 /* ComponentLayout.swift */,
+				8DFF0C05278A453E002586F3 /* AnyDecodable.swift */,
 			);
 			path = DTOs;
 			sourceTree = "<group>";
@@ -146,8 +164,27 @@
 			isa = PBXGroup;
 			children = (
 				8DFF0BF32789D21F002586F3 /* Dictionary+Extensions.swift */,
+				8DFF0BFA278A304E002586F3 /* View+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8DFF0BF5278A2F4D002586F3 /* UI Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BF6278A2F5C002586F3 /* HeaderImageUIModel.swift */,
+				8DFF0C01278A4280002586F3 /* DetailRowUIModel.swift */,
+			);
+			path = "UI Models";
+			sourceTree = "<group>";
+		};
+		8DFF0BFC278A338E002586F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BFD278A33AD002586F3 /* HeaderImageView.swift */,
+				8DFF0C03278A42A8002586F3 /* DetailRowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,8 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DFF0BD12789C75B002586F3 /* ContentView.swift in Sources */,
+				8DFF0BF7278A2F5C002586F3 /* HeaderImageUIModel.swift in Sources */,
 				8DFF0BE92789CA80002586F3 /* UIComponent.swift in Sources */,
+				8DFF0BF9278A3026002586F3 /* HeaderImage.swift in Sources */,
+				8DFF0C00278A425C002586F3 /* DetailRow.swift in Sources */,
+				8DFF0C04278A42A8002586F3 /* DetailRowView.swift in Sources */,
+				8DFF0BFE278A33AD002586F3 /* HeaderImageView.swift in Sources */,
 				8DFF0BE02789C8C9002586F3 /* TripListScreen.swift in Sources */,
 				8DFF0BEE2789CC01002586F3 /* ComponentLayout.swift in Sources */,
 				8DFF0BF12789D167002586F3 /* TripListViewModel.swift in Sources */,
@@ -230,6 +271,9 @@
 				8DFF0BEC2789CAD1002586F3 /* Constants.swift in Sources */,
 				8DFF0BF42789D21F002586F3 /* Dictionary+Extensions.swift in Sources */,
 				8DFF0BE42789CA01002586F3 /* Webservice.swift in Sources */,
+				8DFF0C06278A453E002586F3 /* AnyDecodable.swift in Sources */,
+				8DFF0BFB278A304E002586F3 /* View+Extensions.swift in Sources */,
+				8DFF0C02278A4280002586F3 /* DetailRowUIModel.swift in Sources */,
 				8DFF0BCF2789C75B002586F3 /* TripsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
