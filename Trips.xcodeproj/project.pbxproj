@@ -11,6 +11,15 @@
 		8DFF0BD12789C75B002586F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BD02789C75B002586F3 /* ContentView.swift */; };
 		8DFF0BD32789C75C002586F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF0BD22789C75C002586F3 /* Assets.xcassets */; };
 		8DFF0BD62789C75C002586F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF0BD52789C75C002586F3 /* Preview Assets.xcassets */; };
+		8DFF0BDD2789C8A5002586F3 /* trip-list-screen.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF0BDC2789C8A5002586F3 /* trip-list-screen.json */; };
+		8DFF0BE02789C8C9002586F3 /* TripListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BDF2789C8C9002586F3 /* TripListScreen.swift */; };
+		8DFF0BE42789CA01002586F3 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BE32789CA01002586F3 /* Webservice.swift */; };
+		8DFF0BE72789CA46002586F3 /* ScreenLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BE62789CA46002586F3 /* ScreenLayout.swift */; };
+		8DFF0BE92789CA80002586F3 /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BE82789CA80002586F3 /* UIComponent.swift */; };
+		8DFF0BEC2789CAD1002586F3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BEB2789CAD1002586F3 /* Constants.swift */; };
+		8DFF0BEE2789CC01002586F3 /* ComponentLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BED2789CC01002586F3 /* ComponentLayout.swift */; };
+		8DFF0BF12789D167002586F3 /* TripListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BF02789D167002586F3 /* TripListViewModel.swift */; };
+		8DFF0BF42789D21F002586F3 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0BF32789D21F002586F3 /* Dictionary+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		8DFF0BD02789C75B002586F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DFF0BD22789C75C002586F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DFF0BD52789C75C002586F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DFF0BDC2789C8A5002586F3 /* trip-list-screen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "trip-list-screen.json"; sourceTree = "<group>"; };
+		8DFF0BDF2789C8C9002586F3 /* TripListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListScreen.swift; sourceTree = "<group>"; };
+		8DFF0BE32789CA01002586F3 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		8DFF0BE62789CA46002586F3 /* ScreenLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLayout.swift; sourceTree = "<group>"; };
+		8DFF0BE82789CA80002586F3 /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
+		8DFF0BEB2789CAD1002586F3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8DFF0BED2789CC01002586F3 /* ComponentLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentLayout.swift; sourceTree = "<group>"; };
+		8DFF0BF02789D167002586F3 /* TripListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewModel.swift; sourceTree = "<group>"; };
+		8DFF0BF32789D21F002586F3 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,13 @@
 		8DFF0BCD2789C75B002586F3 /* Trips */ = {
 			isa = PBXGroup;
 			children = (
+				8DFF0BF22789D200002586F3 /* Extensions */,
+				8DFF0BEF2789D15B002586F3 /* View Models */,
+				8DFF0BEA2789CAC7002586F3 /* Utils */,
+				8DFF0BE52789CA2E002586F3 /* DTOs */,
+				8DFF0BE22789C9F1002586F3 /* Services */,
+				8DFF0BE12789C961002586F3 /* Components */,
+				8DFF0BDE2789C8B7002586F3 /* Screens */,
 				8DFF0BCE2789C75B002586F3 /* TripsApp.swift */,
 				8DFF0BD02789C75B002586F3 /* ContentView.swift */,
 				8DFF0BD22789C75C002586F3 /* Assets.xcassets */,
@@ -63,8 +88,66 @@
 			isa = PBXGroup;
 			children = (
 				8DFF0BD52789C75C002586F3 /* Preview Assets.xcassets */,
+				8DFF0BDC2789C8A5002586F3 /* trip-list-screen.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DFF0BDE2789C8B7002586F3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BDF2789C8C9002586F3 /* TripListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8DFF0BE12789C961002586F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BE82789CA80002586F3 /* UIComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8DFF0BE22789C9F1002586F3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BE32789CA01002586F3 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8DFF0BE52789CA2E002586F3 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BE62789CA46002586F3 /* ScreenLayout.swift */,
+				8DFF0BED2789CC01002586F3 /* ComponentLayout.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		8DFF0BEA2789CAC7002586F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BEB2789CAD1002586F3 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8DFF0BEF2789D15B002586F3 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BF02789D167002586F3 /* TripListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8DFF0BF22789D200002586F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF0BF32789D21F002586F3 /* Dictionary+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +210,7 @@
 			files = (
 				8DFF0BD62789C75C002586F3 /* Preview Assets.xcassets in Resources */,
 				8DFF0BD32789C75C002586F3 /* Assets.xcassets in Resources */,
+				8DFF0BDD2789C8A5002586F3 /* trip-list-screen.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +222,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DFF0BD12789C75B002586F3 /* ContentView.swift in Sources */,
+				8DFF0BE92789CA80002586F3 /* UIComponent.swift in Sources */,
+				8DFF0BE02789C8C9002586F3 /* TripListScreen.swift in Sources */,
+				8DFF0BEE2789CC01002586F3 /* ComponentLayout.swift in Sources */,
+				8DFF0BF12789D167002586F3 /* TripListViewModel.swift in Sources */,
+				8DFF0BE72789CA46002586F3 /* ScreenLayout.swift in Sources */,
+				8DFF0BEC2789CAD1002586F3 /* Constants.swift in Sources */,
+				8DFF0BF42789D21F002586F3 /* Dictionary+Extensions.swift in Sources */,
+				8DFF0BE42789CA01002586F3 /* Webservice.swift in Sources */,
 				8DFF0BCF2789C75B002586F3 /* TripsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
