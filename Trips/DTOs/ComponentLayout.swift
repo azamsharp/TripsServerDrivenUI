@@ -8,10 +8,10 @@
 import Foundation
 
 enum ComponentType: String, Decodable {
-    case imageHeader 
+    case imageHeader
 }
 
 struct ComponentLayout: Decodable {
-    let type: String
+    let type: ComponentType 
     let data: [String: String]
 }

@@ -16,7 +16,10 @@ class TripListViewModel: ObservableObject {
         do {
             let layout = try await Webservice().getTripListLayout()
             for component in layout.components {
-                
+                switch component.type {
+                    
+                        
+                }
             }
             
         } catch {
