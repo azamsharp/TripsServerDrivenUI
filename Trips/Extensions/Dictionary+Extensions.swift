@@ -17,15 +17,4 @@ extension Dictionary {
         
         return try? JSONDecoder().decode(T.self, from: data)
     }
-    
 }
-
-// usage
-// let user: User = ["username": "johndoe"].decode()
-
-
-/*
- struct User {
-    let username: String
- }
- */

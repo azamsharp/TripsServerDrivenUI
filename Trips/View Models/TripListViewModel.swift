@@ -22,7 +22,6 @@ class TripListViewModel: ObservableObject {
         } catch {
             print(error)
         }
-        
     }
     
 }
