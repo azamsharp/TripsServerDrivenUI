@@ -9,7 +9,7 @@ import Foundation
 
 enum ComponentType: String, Decodable {
     case imageHeader
-    case detailRow 
+    case list 
 }
 
 struct ComponentLayout: Decodable {
@@ -28,12 +28,6 @@ struct ComponentLayout: Decodable {
         self.type = try container.decode(ComponentType.self, forKey: .type)
         
         let value = try container.decode(AnyDecodable.self, forKey: .data).value
-        print(value.self)
-        
-       
-        
         self.data = value as! [String: Any]
-        
-        //self.data = try container.decode(AnyDecodable.self, forKey: .data).value as! [String: Any]
     }
 }

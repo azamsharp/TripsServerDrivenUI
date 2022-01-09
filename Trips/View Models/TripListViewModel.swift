@@ -20,9 +20,10 @@ class TripListViewModel: ObservableObject {
                     case .imageHeader:
                         guard let uiModel: HeaderImageUIModel = component.data.decode() else { return }
                         components.append(HeaderImage(uiModel: uiModel))
-                    case .detailRow:
-                        guard let uiModels: DetailListUIModel = component.data.decode() else { return }
-                        components.append(DetailRow(uiModels: uiModels.rows))
+                    case .list:
+                        guard let uiModel: ListUIModel = component.data.decode() else { return }
+                        components.append(FlatList(uiModel: uiModel))
+                   
                 }
             }
             

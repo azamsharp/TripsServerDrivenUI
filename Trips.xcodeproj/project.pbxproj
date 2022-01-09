@@ -27,6 +27,13 @@
 		8DFF0C02278A4280002586F3 /* DetailRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C01278A4280002586F3 /* DetailRowUIModel.swift */; };
 		8DFF0C04278A42A8002586F3 /* DetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C03278A42A8002586F3 /* DetailRowView.swift */; };
 		8DFF0C06278A453E002586F3 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C05278A453E002586F3 /* AnyDecodable.swift */; };
+		8DFF0C08278A65D7002586F3 /* trip-list-screen-backup.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF0C07278A65D7002586F3 /* trip-list-screen-backup.json */; };
+		8DFF0C0A278B29C7002586F3 /* ListUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C09278B29C7002586F3 /* ListUIModel.swift */; };
+		8DFF0C0C278B2A64002586F3 /* ListItemUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C0B278B2A64002586F3 /* ListItemUIModel.swift */; };
+		8DFF0C0E278B2B65002586F3 /* FlatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C0D278B2B65002586F3 /* FlatList.swift */; };
+		8DFF0C10278B4999002586F3 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C0F278B4999002586F3 /* Array+Extension.swift */; };
+		8DFF0C12278B4BE6002586F3 /* ArtworkRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C11278B4BE6002586F3 /* ArtworkRowUIModel.swift */; };
+		8DFF0C14278B4C38002586F3 /* ArtworkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF0C13278B4C38002586F3 /* ArtworkRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +58,13 @@
 		8DFF0C01278A4280002586F3 /* DetailRowUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowUIModel.swift; sourceTree = "<group>"; };
 		8DFF0C03278A42A8002586F3 /* DetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowView.swift; sourceTree = "<group>"; };
 		8DFF0C05278A453E002586F3 /* AnyDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
+		8DFF0C07278A65D7002586F3 /* trip-list-screen-backup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "trip-list-screen-backup.json"; sourceTree = "<group>"; };
+		8DFF0C09278B29C7002586F3 /* ListUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUIModel.swift; sourceTree = "<group>"; };
+		8DFF0C0B278B2A64002586F3 /* ListItemUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemUIModel.swift; sourceTree = "<group>"; };
+		8DFF0C0D278B2B65002586F3 /* FlatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatList.swift; sourceTree = "<group>"; };
+		8DFF0C0F278B4999002586F3 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		8DFF0C11278B4BE6002586F3 /* ArtworkRowUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkRowUIModel.swift; sourceTree = "<group>"; };
+		8DFF0C13278B4C38002586F3 /* ArtworkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +118,7 @@
 			children = (
 				8DFF0BD52789C75C002586F3 /* Preview Assets.xcassets */,
 				8DFF0BDC2789C8A5002586F3 /* trip-list-screen.json */,
+				8DFF0C07278A65D7002586F3 /* trip-list-screen-backup.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -122,6 +137,7 @@
 				8DFF0BE82789CA80002586F3 /* UIComponent.swift */,
 				8DFF0BF8278A3026002586F3 /* HeaderImage.swift */,
 				8DFF0BFF278A425C002586F3 /* DetailRow.swift */,
+				8DFF0C0D278B2B65002586F3 /* FlatList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -165,6 +181,7 @@
 			children = (
 				8DFF0BF32789D21F002586F3 /* Dictionary+Extensions.swift */,
 				8DFF0BFA278A304E002586F3 /* View+Extensions.swift */,
+				8DFF0C0F278B4999002586F3 /* Array+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -174,6 +191,9 @@
 			children = (
 				8DFF0BF6278A2F5C002586F3 /* HeaderImageUIModel.swift */,
 				8DFF0C01278A4280002586F3 /* DetailRowUIModel.swift */,
+				8DFF0C09278B29C7002586F3 /* ListUIModel.swift */,
+				8DFF0C0B278B2A64002586F3 /* ListItemUIModel.swift */,
+				8DFF0C11278B4BE6002586F3 /* ArtworkRowUIModel.swift */,
 			);
 			path = "UI Models";
 			sourceTree = "<group>";
@@ -183,6 +203,7 @@
 			children = (
 				8DFF0BFD278A33AD002586F3 /* HeaderImageView.swift */,
 				8DFF0C03278A42A8002586F3 /* DetailRowView.swift */,
+				8DFF0C13278B4C38002586F3 /* ArtworkRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFF0C08278A65D7002586F3 /* trip-list-screen-backup.json in Resources */,
 				8DFF0BD62789C75C002586F3 /* Preview Assets.xcassets in Resources */,
 				8DFF0BD32789C75C002586F3 /* Assets.xcassets in Resources */,
 				8DFF0BDD2789C8A5002586F3 /* trip-list-screen.json in Resources */,
@@ -269,12 +291,18 @@
 				8DFF0BF12789D167002586F3 /* TripListViewModel.swift in Sources */,
 				8DFF0BE72789CA46002586F3 /* ScreenLayout.swift in Sources */,
 				8DFF0BEC2789CAD1002586F3 /* Constants.swift in Sources */,
+				8DFF0C12278B4BE6002586F3 /* ArtworkRowUIModel.swift in Sources */,
+				8DFF0C14278B4C38002586F3 /* ArtworkRowView.swift in Sources */,
 				8DFF0BF42789D21F002586F3 /* Dictionary+Extensions.swift in Sources */,
 				8DFF0BE42789CA01002586F3 /* Webservice.swift in Sources */,
+				8DFF0C0E278B2B65002586F3 /* FlatList.swift in Sources */,
 				8DFF0C06278A453E002586F3 /* AnyDecodable.swift in Sources */,
 				8DFF0BFB278A304E002586F3 /* View+Extensions.swift in Sources */,
+				8DFF0C10278B4999002586F3 /* Array+Extension.swift in Sources */,
+				8DFF0C0A278B29C7002586F3 /* ListUIModel.swift in Sources */,
 				8DFF0C02278A4280002586F3 /* DetailRowUIModel.swift in Sources */,
 				8DFF0BCF2789C75B002586F3 /* TripsApp.swift in Sources */,
+				8DFF0C0C278B2A64002586F3 /* ListItemUIModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

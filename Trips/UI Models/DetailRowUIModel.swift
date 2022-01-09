@@ -7,11 +7,9 @@
 
 import Foundation
 
-struct DetailListUIModel: Decodable {
-    let rows: [DetailRowUIModel]
-}
-
 struct DetailRowUIModel: Decodable {
-    let id: Int 
+    let id: Int
     let title: String
+    let body: String
+    let imageUrl: URL
 }

@@ -10,23 +10,23 @@
             
         },
         {
-            "type": "list",
+            "type": "detailRow",
             "data": {
-                "itemType": "artworkRow",
-                "items": [
-                    {
-                        "id": 2,
-                        "title": "Houston",
-                        "body": "Welcome to Houston",
-                        "imageUrl": "https://media.istockphoto.com/photos/houston-downtown-aerial-at-sunset-angled-view-with-highway-picture-id1202397435?b=1&k=20&m=1202397435&s=170667a&w=0&h=H4Mip2l6VwjG50iyx9Ku80KcrX3-vgUgxSOSwIi7b80="
-                        
-                    },
+                "rows": [
                     {
                         "id": 1,
                         "title": "Denver",
-                        "body": "Welcome to Denver",
                         "imageUrl": "https://media.istockphoto.com/photos/denver-colorado-usa-downtown-skyline-drone-aerial-picture-id1292266863?b=1&k=20&m=1292266863&s=170667a&w=0&h=LN--HcrF9NVido1aJm6UVUAPJ6GBNRfUeQM24XBGBQs="
-                        
+                    },
+                    {
+                        "id": 2,
+                        "title": "Houston",
+                        "imageUrl": "https://media.istockphoto.com/photos/houston-downtown-aerial-at-sunset-angled-view-with-highway-picture-id1202397435?b=1&k=20&m=1202397435&s=170667a&w=0&h=H4Mip2l6VwjG50iyx9Ku80KcrX3-vgUgxSOSwIi7b80="
+                    },
+                    {
+                        "id": 3,
+                        "title": "Seattle",
+                        "imageUrl": "https://media.istockphoto.com/photos/summer-seattle-picture-id1156820194?b=1&k=20&m=1156820194&s=170667a&w=0&h=QrPqTLHXOAWwi7Lzse0qhzjk8dUB4ZUVUOchH-0AAAs="
                     }
                 ]
             }

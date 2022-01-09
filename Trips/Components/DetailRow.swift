@@ -10,15 +10,10 @@ import SwiftUI
 
 struct DetailRow: UIComponent {
     
-    let uiModels: [DetailRowUIModel]
+    let uiModel: DetailRowUIModel
     
     func render() -> AnyView {
-        
-        List(uiModels, id: \.id) { uiModel in
-            DetailRowView(uiModel: uiModel)
-        }.toAnyView()
-        
-        
+        DetailRowView(uiModel: uiModel).toAnyView()
     }
 }
 

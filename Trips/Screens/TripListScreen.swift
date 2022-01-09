@@ -16,7 +16,7 @@ struct TripListScreen: View {
             ForEach(tripListVM.components, id: \.uniqueId) { component in
                 component.render()
             }
-        }.task {
+        }.padding().task {
             await tripListVM.loadPage()
         }
     }
