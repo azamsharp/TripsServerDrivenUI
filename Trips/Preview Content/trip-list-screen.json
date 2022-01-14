@@ -12,7 +12,7 @@
         {
             "type": "list",
             "data": {
-                "itemType": "artworkRow",
+                "itemType": "detailRow",
                 "items": [
                     {
                         "id": 2,
